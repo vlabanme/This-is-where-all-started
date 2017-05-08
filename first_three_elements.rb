@@ -4,7 +4,7 @@
 min = -1000
 max = 1000
 N = 1000001
-input_array = ARGV
+input_array = ARGV[0].scan(/\w+/).map(&:to_i)
 
 def number_or_nil(string)
   Integer(string || '')
@@ -35,5 +35,5 @@ def first_three(array)
 end
 
 if input_array.length < N then
-  puts "First three elements: #{first_three(ARGV)}"
+  puts "First three elements: #{first_three(ARGV[0].scan(/\w+/).map(&:to_i))}"
 end
