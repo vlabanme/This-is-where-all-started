@@ -1,0 +1,7 @@
+Lesson 2:
+For each next task crate separate method. Method input A = [1..N] , each element [-1000, 1000], N = 1..1000000, return:
+1. Third element
+2. First 3 elements (if no element return nil's [1, nil, nil])
+3. Every second value
+4. Divide array in blocks of 5, and return array of their SUM
+5. Considering that array A contains an odd number of elements where one of them has no pair. For example A = [8,7,3,1,1,4,3,8,7], 4 has no pair. Return index of that value
